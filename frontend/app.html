@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prompt Tester</title>
+</head>
+<body>
+    <h2>Prompt Testing App</h2>
+
+    <textarea id="inputText" rows="5" cols="50"></textarea><br>
+
+    <select id="taskType">
+        <option value="summarization">Summarization</option>
+        <option value="qa">Q&A</option>
+    </select>
+
+    <button onclick="callAPI()">Generate</button>
+
+    <pre id="output"></pre>
+
+    <script src="app.js"></script>
+</body>
+</html>
